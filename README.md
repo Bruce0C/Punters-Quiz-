@@ -1,11 +1,11 @@
 
-# The Rugby Buff
+# Punters Quiz
 
 ## OVERVIEW
 
-The Rugby Buff
+Punters Quiz 
 
-The rugby buff is a basic site to learn about standard rugby union. When learning a new sport as a player or a spectator, common questions about the game are asked. “What’s happening and why” being chief among them. Without going into intricate detail and confusing the user, this site will only cover the roles of players and officials. Giving a basic understanding of the pitch and the rules and laws that form the sport. So as to not include too much detail the site will act as a sign post to the up to date laws and regulations of the sport.
+The Punters quiz is a basic quiz than covers popular pub quiz trivia. This site will cover twenty questions on random topics and give the user a score at the end of the quiz. Keepping the quiz breif but enjoyable this quiz can be for any user who wants to challenge their knowledge either as an individual or in a team. 
 
 ![Image of...](./assets/images/...)
 ## FEATURES

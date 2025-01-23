@@ -9,6 +9,8 @@
         content="Punters Quiz. A website used as a pub quiz, the site will ask twenty questions on random topics and reveal the score at the end of the quiz." />
     <meta name="keywords"
         content="Punters quiz, pub quiz, quiz, pub, questions, random knowledge, basic quiz, pub game, drinking game, pub activities, quiz activities " />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon512x512.png" />
     <!-- Title -->
@@ -20,23 +22,33 @@
 
 <body>
     <img class="logo" src="assets/images/favicon/favicon512x512.png" alt="Punters Quiz logo" />
+
     <h1 class="title">Punters Quiz</h1>
-    <section class="container">
-        <div class="description">
-            <p class="paragraph">
-                Welcome to the Punters Quiz, the random trivia, twenty questioned pub quiz to
-                warm up your pub revelries...
-            </p>
+
+    <div class="container">
+        <div class="row">
+            <div class=" col-md">
+                <p class="paragraph">
+                    Welcome to the Punters Quiz, the random trivia, twenty questioned pub quiz to
+                    warm up your pub revelries...
+                </p>
+            </div>
+            <div class="col-md ">
+                <p class="paragraph">
+                    At the end of the quiz, your score will be totaled out of twenty. Good luck!
+                </p>
+            </div>
         </div>
-        <div class="paragraph">
-            <p class="">
-                At the end of the quiz, your score will be totaled out of twenty. Good luck!
-            </p>
-        </div>
-    </section>
+    </div>
+    <button type="button" class="btn btn-success">Start Quiz!</button>
+    </div>
+    </div>
+
 
     <div class="score-area"></div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
     <script src="assets/js/script.js"></script>
 </body>
 

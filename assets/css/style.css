@@ -1,6 +1,26 @@
 /* General styles */
-body{
+body {
     background-color: #272727;
+    text-align: center;
 }
-/* Header */
+
+/* main content */
+.logo {
+    width: 50%;
+    height: 50%;
+    padding: 1px 5px;
+}
+
+.title {
+    color: white;
+}
+
+.container {}
+
+.description {}
+
+.paragraph {
+    color: white;
+}
+
 /* Footer */

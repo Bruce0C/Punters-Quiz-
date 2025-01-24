@@ -28,4 +28,17 @@ body {
     margin: 50px auto 0;
     padding: 20px
 }
+
+.quiz h3{
+    font-size: 25px;
+    font-weight: 40 ;
+    border-bottom: 1px solid #272727;
+    padding-bottom: 15px ;
+}
+
+.btn{
+    border: 1px solid ;
+    padding: 10px;
+    
+}
 /* Footer */

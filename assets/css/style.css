@@ -9,6 +9,8 @@ body {
     width: 50%;
     height: 50%;
     padding: 1px 5px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .title {

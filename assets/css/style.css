@@ -46,6 +46,11 @@ body {
     padding: 10px ;
     color: white ;
     background-color: #0000008f;
+    transition: all 0.5s;
 }
 
+.btn:hover{
+    color: rgba(0, 0, 0, 0.755);
+    background-color: #ffc840;
+}
 /* Footer */

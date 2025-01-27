@@ -63,12 +63,15 @@ body {
     margin: 10px auto 0;
     border: 0;
     border-radius: 10px;
-    width: 15%;
+    min-width: 15%;
     height: 30px;
     cursor: pointer;
+    display: none;
+    
+    
 }
 
 #next-btn:hover{
     color: rgba(0, 0, 0, 0.755);
-    background-color: #2ed35d;
+    background-color: #ffc840;  
 }

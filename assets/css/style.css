@@ -43,6 +43,7 @@ body {
     border: 1px solid ;
     padding: 10px;
     margin: 5px 0;
+    border-radius: 10px;
     width: 80%;
     margin: 10px 0;
     padding: 10px ;
@@ -57,6 +58,17 @@ body {
 }
 
 #next-btn{
-    
+    color: #000000;
+    font-weight: 400;
+    margin: 10px auto 0;
+    border: 0;
+    border-radius: 10px;
+    width: 15%;
+    height: 30px;
+    cursor: pointer;
 }
-/* Footer */
+
+#next-btn:hover{
+    color: rgba(0, 0, 0, 0.755);
+    background-color: #2ed35d;
+}

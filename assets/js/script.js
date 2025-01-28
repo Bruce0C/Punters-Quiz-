@@ -54,3 +54,15 @@ const nextButton = document.getElementById('next-btn');
 let currentQuestionIndex = 0;
 let score = 0;
 
+function startQuiz(){
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButto.innerHTML = "Next" ;
+    showQuestion();
+}
+
+function showQuestion(){
+    let currentQuestion = question [currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElemen.innerHTML = questionNo + ". " + currentQuestion
+}

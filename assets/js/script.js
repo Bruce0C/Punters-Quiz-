@@ -51,3 +51,6 @@ const questionElement = document.getElementById('question');
 const answersButton = document.getElementById('answers');
 const nextButton = document.getElementById('next-btn');
 
+let currentQuestionIndex = 0;
+let score = 0;
+

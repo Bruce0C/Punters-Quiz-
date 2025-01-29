@@ -72,27 +72,27 @@ function showQuestion() {
         button.innerHTML = answers.text;
         button.classList.add('btn');
         answersButtons.appendChild(button);
-        if(answer.correct){
-            button.dataset.correct = answer.correct;
+        if (answers.correct) {
+            button.dataset.correct = answers.correct;
         }
         button.addEventListener('click', selectAnswer)
     });
 
 }
 
-function resetState(){
-    nextButton.style.display ='none';
-    while(answersButtons.firstChild){
+function resetState() {
+    nextButton.style.display = 'none';
+    while (answersButtons.firstChild) {
         answersButtons.removeChild(answersButtons.firstChild);
     }
 }
 
-function selectAnswer(e){
+function selectAnswer(e) {
     const selectBtn = e.target;
     const isCorrect = selectBtn.dataset.correct === 'true';
-    if(isCorrect){
+    if (isCorrect) {
         selectBtn.classList.add('correct');
-    }else{
+    } else {
         selectBtn.classList.add('incorrect')
     }
 

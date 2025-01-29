@@ -1,4 +1,4 @@
-const question = [{
+const questions = [{
         question: 'Will this code work after you push it?',
         answers: [{
             text: "Yes",
@@ -62,9 +62,9 @@ function startQuiz() {
 }
 
 function showQuestion() {
-    let currentQuestion = question[currentQuestionIndex];
+    let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answers => {
         const button = document.createElement('button');

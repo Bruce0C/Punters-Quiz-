@@ -1,37 +1,101 @@
 const questions = [{
-        question: 'Will this code work after you push it?',
+        question: 'What is the Russian equivalent of an American astronaut?',
         answers: [{
-            text: "Yes",
+            text: "Cosmonaut",
             correct: true
         }, {
-            text: "Maybe",
+            text: "Astronomer",
             correct: false
         }, {
-            text: "Highly doubt it",
+            text: "Rocketeer",
             correct: false
         }, {
-            text: "Ask the computer nicely",
+            text: "Skywalker",
             correct: false
         }, ]
     },
     {
-        question: 'Did you fix any and all bugs before pushing this code?',
+        question: 'In which book would you find a Heffalump?',
         answers: [{
-            text: "Yes",
+            text: "Of mice and men",
             correct: false
         }, {
-            text: "Maybe",
+            text: "Alice in Wonderland",
             correct: false
         }, {
-            text: "Highly doubt it",
+            text: "Winnie The Pooh",
             correct: true
         }, {
-            text: "Ask the computer nicely",
+            text: "Jack and the giant beanstaulk",
             correct: false
         }, ]
     },
     {
-        question: 'what colour is the sky?',
+        question: 'The centaur is a mythological creature, part man and part what?',
+        answers: [{
+            text: "Black",
+            correct: false
+        }, {
+            text: "Blue",
+            correct: false
+        }, {
+            text: "Depends on the time-zone",
+            correct: false
+        }, {
+            text: "Horse",
+            correct: true
+        }, ]
+    }
+    {
+        question: 'Which Chilean island is famous for its giant stone figures?',
+        answers: [{
+            text: "Easter Island",
+            correct: true
+        }, {
+            text: "Blue",
+            correct: false
+        }, {
+            text: "Depends on the time-zone",
+            correct: false
+        }, {
+            text: "Baige",
+            correct: false
+        }, ]
+    }
+    {
+        question: "What was the name of Dr Who's dog?",
+        answers: [{
+            text: "Black",
+            correct: false
+        }, {
+            text: "Blue",
+            correct: false
+        }, {
+            text: "K9",
+            correct: true
+        }, {
+            text: "Baige",
+            correct: false
+        }, ]
+    }
+    {
+        question: 'Which Italian term means "In The Open Air"?',
+        answers: [{
+            text: "Black",
+            correct: false
+        }, {
+            text: "Blue",
+            correct: false
+        }, {
+            text: "Alfresco",
+            correct: true
+        }, {
+            text: "Baige",
+            correct: false
+        }, ]
+    }
+    {
+        question: '...',
         answers: [{
             text: "Black",
             correct: true
@@ -102,21 +166,22 @@ function selectAnswer(e) {
         }
         button.disabled = true;
     });
-    nextButton.style.display = 'block'
+    nextButton.style.display = 'block';
 
 }
-function showScore(){
+
+function showScore() {
     resetState();
     questionElement.innerHTML = `Final Score ${score} out of ${questions.length}!`;
     nextButton.innerHTML = 'Play Again';
-    nextButton.style.display ='block';
+    nextButton.style.display = 'block';
 }
 
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         showQuestion();
-    }else{
+    } else {
         showScore();
     }
 }

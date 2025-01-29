@@ -12,7 +12,7 @@ const question = [{
         }, {
             text: "Ask the computer nicely",
             correct: false
-        },]
+        }, ]
     },
     {
         question: 'Did you fix any and all bugs before pushing this code?',
@@ -54,15 +54,25 @@ const nextButton = document.getElementById('next-btn');
 let currentQuestionIndex = 0;
 let score = 0;
 
-function startQuiz(){
+function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    nextButto.innerHTML = "Next" ;
+    nextButton.innerHTML = "Next";
     showQuestion();
 }
 
-function showQuestion(){
-    let currentQuestion = question [currentQuestionIndex];
+function showQuestion() {
+    let currentQuestion = question[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElemen.innerHTML = questionNo + ". " + currentQuestion
+    questionElement.innerHTML = questionNo + ". " + currentQuestion;
+
+    currentQuestion.answers.forEach(answers => {
+        const button = document.createElement('button');
+        button.innerHTML = answers.text;
+        button.classList.add('btn');
+        answersButton.appendChild(button);
+    });
+
 }
+
+startQuiz();

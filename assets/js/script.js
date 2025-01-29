@@ -72,6 +72,10 @@ function showQuestion() {
         button.innerHTML = answers.text;
         button.classList.add('btn');
         answersButtons.appendChild(button);
+        if(answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener('click', selectAnswer)
     });
 
 }
@@ -81,6 +85,17 @@ function resetState(){
     while(answersButtons.firstChild){
         answersButtons.removeChild(answersButtons.firstChild);
     }
+}
+
+function selectAnswer(e){
+    const selectBtn = e.target;
+    const isCorrect = selectBtn.dataset.correct === 'true';
+    if(isCorrect){
+        selectBtn.classList.add('correct');
+    }else{
+        selectBtn.classList.add('incorrect')
+    }
+
 }
 
 startQuiz();

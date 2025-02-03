@@ -199,7 +199,7 @@ const questions = [{
             text: "Samuel L. Jackson",
             correct: false
         }, {
-            text: "Erin Pierre",
+            text: "Aaron Pierre",
             correct: false
         }, {
             text: "Eddie Murphy",
@@ -319,12 +319,19 @@ const questions = [{
         }, ]
     }
 ];
+
+//Constants 
 const questionElement = document.getElementById('question');
 const answersButtons = document.getElementById('answers');
 const nextButton = document.getElementById('next-btn');
+const progressBarFill = document.getElementById('progress-bar-fill');
+const maxQuestions = 20
 
 let currentQuestionIndex = 0;
 let score = 0;
+let questionCounter = 0
+
+let max = 0;
 
 function startQuiz() {
     currentQuestionIndex = 0;
@@ -347,9 +354,11 @@ function showQuestion() {
         if (answers.correct) {
             button.dataset.correct = answers.correct;
         }
-        button.addEventListener('click', selectAnswer)
+        button.addEventListener('click', selectAnswer);
     });
 
+    //Update the progress bar
+    progressBarFill.style.width = `${(questionNo / maxQuestions) * 100}%`;
 }
 
 function resetState() {
@@ -366,23 +375,23 @@ function selectAnswer(e) {
         selectBtn.classList.add('correct');
         score++;
     } else {
-        selectBtn.classList.add('incorrect')
+        selectBtn.classList.add("incorrect");
     }
     Array.from(answersButtons.children).forEach(button => {
-        if (button.dataset.correct === 'true') {
-            button.classList.add('correct');
+        if (button.dataset.correct === "true") {
+            button.classList.add("correct");
         }
         button.disabled = true;
     });
-    nextButton.style.display = 'block';
+    nextButton.style.display = "block";
 
 }
 
 function showScore() {
     resetState();
     questionElement.innerHTML = `Final Score ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = 'Play Again';
-    nextButton.style.display = 'block';
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
 }
 
 function handleNextButton() {
@@ -394,12 +403,12 @@ function handleNextButton() {
     }
 }
 
-nextButton.addEventListener('click', () => {
+nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
     } else {
         startQuiz();
     }
-})
+});
 
 startQuiz();

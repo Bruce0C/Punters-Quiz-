@@ -23,6 +23,25 @@ body {
 
 /* Quiz content */
 
+#hud-container {
+    color: #ffffff;
+    margin-left: 90%;
+    border-radius: 10%;
+}
+
+#quizprogress {
+    border: 0.1rem solid ;
+    width: 100%;
+    height: 10px;
+
+}
+
+#progress-bar-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #ffc840;
+}
+
 .quiz {
     background-color: #2f2f2f;
     width: 90%;
@@ -39,10 +58,11 @@ body {
     color: #ffffff
 }
 
-#start-btn:hover{
+#start-btn:hover {
     color: #ffffff;
     background-color: #008000;
 }
+
 .btn {
     border: 1px solid;
     padding: 10px;

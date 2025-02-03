@@ -210,10 +210,10 @@ const questions = [{
         question: 'What is the name of Superman’s hometown on Earth?',
         answers: [{
             text: "Kent",
-            correct: true
+            correct: false
         }, {
             text: "Smallville",
-            correct: false
+            correct: true
         }, {
             text: "Krypton",
             correct: false
@@ -290,7 +290,7 @@ const questions = [{
         question: 'In rugby union, what position does the player wearing number two play?',
         answers: [{
             text: "Fly-half",
-            correct: true
+            correct: false
         }, {
             text: "Hooker",
             correct: true
@@ -325,13 +325,10 @@ const questionElement = document.getElementById('question');
 const answersButtons = document.getElementById('answers');
 const nextButton = document.getElementById('next-btn');
 const progressBarFill = document.getElementById('progress-bar-fill');
-const maxQuestions = 20
+const maxQuestions = 20;
 
 let currentQuestionIndex = 0;
 let score = 0;
-
-
-
 
 function startQuiz() {
     currentQuestionIndex = 0;
@@ -381,7 +378,7 @@ function selectAnswer(e) {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
-        button.disabled = true;
+        button.disabled = false;
     });
     nextButton.style.display = "block";
 

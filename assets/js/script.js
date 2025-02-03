@@ -329,9 +329,9 @@ const maxQuestions = 20
 
 let currentQuestionIndex = 0;
 let score = 0;
-let questionCounter = 0
 
-let max = 0;
+
+
 
 function startQuiz() {
     currentQuestionIndex = 0;

@@ -23,12 +23,6 @@ body {
 
 /* Quiz content */
 
-#hud-container {
-    color: #ffffff;
-    margin-left: 90%;
-    border-radius: 10%;
-}
-
 #quizprogress {
     border: 0.1rem solid ;
     width: 100%;

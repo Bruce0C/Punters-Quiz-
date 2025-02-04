@@ -407,15 +407,6 @@ function handleNextButton() {
     }
 }
 
-function finishQuiz(){
-    currentQuestionIndex++;
-    if (currentQuestionIndex < question.Array) {
-        nextButton.innerHTML = "Finish";
-        nextButton.style.display = "block";
-    }
-}
-
-
 // Move on to the next question from current question
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {

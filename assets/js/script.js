@@ -1,3 +1,4 @@
+//Constants question and answers
 const questions = [{
         question: 'What is the Russian equivalent of an American astronaut?',
         answers: [{
@@ -337,6 +338,7 @@ function startQuiz() {
     showQuestion();
 }
 
+//Show question
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -358,6 +360,7 @@ function showQuestion() {
     progressBarFill.style.width = `${(questionNo / maxQuestions) * 100}%`;
 }
 
+//Reveal answer button
 function resetState() {
     nextButton.style.display = 'none';
     while (answersButtons.firstChild) {
@@ -365,6 +368,7 @@ function resetState() {
     }
 }
 
+//Turn button green or red when clicked
 function selectAnswer(e) {
     const selectBtn = e.target;
     const isCorrect = selectBtn.dataset.correct === 'true';
@@ -374,6 +378,7 @@ function selectAnswer(e) {
     } else {
         selectBtn.classList.add("incorrect");
     }
+
     Array.from(answersButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
@@ -384,6 +389,7 @@ function selectAnswer(e) {
 
 }
 
+//Reveal score and play again button
 function showScore() {
     resetState();
     questionElement.innerHTML = `Final Score ${score} out of ${questions.length}!`;
@@ -391,6 +397,7 @@ function showScore() {
     nextButton.style.display = "block";
 }
 
+//Show next button
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -400,6 +407,16 @@ function handleNextButton() {
     }
 }
 
+function finishQuiz(){
+    currentQuestionIndex++;
+    if (currentQuestionIndex < question.Array) {
+        nextButton.innerHTML = "Finish";
+        nextButton.style.display = "block";
+    }
+}
+
+
+// Move on to the next question from current question
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();

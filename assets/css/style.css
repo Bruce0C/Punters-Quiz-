@@ -13,9 +13,11 @@ body {
     max-height: 500px;
 }
 
-.title {
-    color: white;
+ .title {
+    color: #ffffff;
+    text-decoration: none;
 }
+
 
 .paragraph {
     color: white;

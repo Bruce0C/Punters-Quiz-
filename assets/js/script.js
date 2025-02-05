@@ -398,8 +398,6 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-
-
 /**
  * Reveal score and play again button
  * Code from Great stack's javascript turorial */

@@ -22,7 +22,7 @@
 | :--------- | :------------------------------------------------------------------------------------- | :--------------------: |
 | All        | Navigation links to relevant pages                                                     |          Yes           |
 | All        | Hover effect over buttons                                                              |          Yes           |
-| Homepage   | Images and text flex responsively                                                      |          Yes           |
+| Home page   | Images and text flex responsively                                                      |          Yes           |
 | Home page  | "Start Quiz" button takes user to the quiz page when clicked                           |          Yes           |
 | Quiz       | Question and answer content fits within the screen                                     |          Yes           |
 | Quiz       | Questions and answers load in correct order question                                   |          Yes           |
@@ -30,7 +30,7 @@
 | Quiz       | Green background appears on correct answer                                             |          Yes           |
 | Quiz       | Push current question out of question array                                            |          Yes           |
 | Quiz       | Reddisplayed                                                                           |          Yes           |
-| Score      | user can see their results when quiz is complete                                       |          yes           |
+| Score      | User can see their results when quiz is complete                                       |          yes           |
 
 **Navigation Links**
 
@@ -116,14 +116,12 @@ Accessibility standards were checked using WAVE WebAIM
 
 Testing was focused to ensure the following criteria were met:
 
-- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs.
-- Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
-- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
-- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
-- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- All forms have associated aria-labels so that this is read out on a screen reader to users who tab to form inputs.
+- Color contrasts meets acceptable ratio
+- Importance of content is relayed correctly through header levels.
+- All not textual content had alternative text or titles.
 - HTML page lang attribute has been set.
 - Aria properties have been implemented correctly.
-- WCAG 2.1 Coding best practices being followed.
 
 </details>
 
@@ -255,7 +253,7 @@ Website behaved as expected. If the user only selects incorrect answers, the fin
 
 ### Validation Issues
 
-The initial W3S Mark Up Validation returned some warning and a single error for the home page. The error was due to an unused variable and allwarning were a result of trailing slashes on void elements. All errors and warnings were resoleved.
+The initial W3S Mark Up Validation returned some warnings and a single error for the home page. The error was due to an unused variable and all warnings were a result of trailing slashes on void elements. All errors and warnings were resoleved.
 The initial JsHint test results returned with multiple warnings in regards to semicolons being left out. as JS Hint highlights these errors the issue was quickly resolved. 
 
 
@@ -263,7 +261,7 @@ The initial JsHint test results returned with multiple warnings in regards to se
 
 ## Bugs/Unfixed Bugs
 
-There were two main bugs I found when making the website. The first bug was, clicking the same aswer more than ones will keep adding to the score. The second was, disabling the answer buttons after selectiong an answer also removed the pages ability to show the correct/incorrect background colours. 
+There were two main bugs I found when making the website. The first bug was, clicking the same correct aswer more than ones will keep adding to the score. The second was, disabling the answer buttons after selecting an answer also removed the pages ability to show the correct/incorrect background colours. 
 
 Interactivity:
 - Expected: That all JavaScript functions would work  as intended for the website's optimum interactivity.
@@ -273,6 +271,6 @@ Interactivity:
 Score:
 - Expected: One point is awarded for each correct answer, for a total of 20 points. 
 - Actual: When clicked more than once, the same correct answer can award multiple points before moving on to the next question.
-- Solution: To solve this issue,simply disabling the buttons after one is clicked will prevent the user from using any button more than once. Another issue then arises of the buttons shifting grey, meaning the red and green backgrounds will not be chown as the buttons are disabled. For this reason Have left the buttons disabled. Disabling the button without maintaining the background change would likely lead to a bad user experiecne. as they would not now if they answered the question correctly or otherwise. 
+- Solution: To solve this issue,simply disabling the buttons after one is clicked will prevent the user from using any button more than once. Another issue then arises of the buttons shifting grey, meaning the red and green backgrounds will not be chown as the buttons are disabled. For this reason I have left the buttons enabled, until i find a fix allowing the disabled button to show colour. Disabling the button without maintaining the background change would likely lead to a bad user experiecne. as they would not now if they answered the question correctly or otherwise. 
 
 

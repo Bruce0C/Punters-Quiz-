@@ -30,7 +30,7 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 ### Possible Future Plans:
 * To add more than 100 or more questions that are randomly generated thereby ensuring the users wont have the same questions asked when playing again.
 * To include a feature where users can save their progress.
-* To include a feature that can accept multiple teams on the same game and record all team score in the same game. 
+* To include a feature that can accept multiple teams on the same game and record all team scores in the same game. 
 * To add a timer that disables all buttons after one minute, if the user has not answered a question they would get no points. 
 
 
@@ -38,9 +38,8 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 ## TABLE OF CONTENTS
 
 * [Features](#Features)
-    * [Site Wide](#site-wide)
     * [Landing Page](#landing-page)
-    * [Sign Up PAge](#sign-up-page)
+    * [Quiz PAge](#quiz-page)
     * [Existing Features](#existing-features)
     * [Features Left to Implement](#possible-future-plans)
 
@@ -178,7 +177,7 @@ Results page
 * CSS
     * The Website includes custom CSS to style effects and the website.
 * JavaScript
-    * [JavaScript](https://www.javascript.com/) was used for interactivity.
+    * JavaScript was used for interactivity.
 * GitHub
     * Source code is hosted on [GitHub](https://github.com) and delpoyed using.
 * Visual studio code

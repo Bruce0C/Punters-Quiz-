@@ -268,7 +268,7 @@ There were two main bugs I found when making the website. The first bug was, cli
 Interactivity:
 - Expected: That all JavaScript functions would work  as intended for the website's optimum interactivity.
 - Actual: Most of of the functions work however disabling the answer button also means being unable to show the correct/ incorrect answers.
-- Solution: When looking through numerous tutorials and discusing the possible solution to this problem with my mentor, I was able to get the desired result by using "button.disabled = true" function
+- Solution: When looking through numerous tutorials and discusing the possible solution to this problem with my mentor, I was able to get the desired result by using "button.disabled = true" in javascript
 
 Score:
 - Expected: One point is awarded for each correct answer, for a total of 20 points. 

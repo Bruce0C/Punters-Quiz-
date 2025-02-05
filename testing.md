@@ -273,6 +273,6 @@ Interactivity:
 Score:
 - Expected: One point is awarded for each correct answer, for a total of 20 points. 
 - Actual: When clicked more than once, the same correct answer can award multiple points before moving on to the next question.
-- Solution: When looking through numerous tutorials and discusing the possible solution to this problem with my mentor, I was able to get the desired result.
+- Solution: To solve this issue,simply disablingh the buttons after they are clicked will prevent the user from using any button more than once. Another issue then arises of the buttons shifting grey, meaning the red and green backgrounds will not be chown as the buttons are disabled. 
 
 

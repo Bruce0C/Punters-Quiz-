@@ -1,4 +1,5 @@
-//Constants question and answers
+/** All questions were taken from https://paulcooper.uk/2021/01/01/100-pub-quiz-trivia-questions-part-1/
+ * Questions were randomly selected between part one and part twelsve of the site */
 const questions = [{
         question: 'What is the Russian equivalent of an American astronaut?',
         answers: [{
@@ -331,6 +332,7 @@ const maxQuestions = 20;
 let currentQuestionIndex = 0;
 let score = 0;
 
+//This function will initiate the quiz
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -338,7 +340,8 @@ function startQuiz() {
     showQuestion();
 }
 
-//Show question
+/**This function will display the question and its number
+ * Code from Great stack's javascript turorial */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -356,7 +359,8 @@ function showQuestion() {
         button.addEventListener('click', selectAnswer);
     });
 
-    //Update the progress bar
+    /**Update the progress bar
+     *  Code from James Q Quick "Build a Quiz App(6)" turorial */
     progressBarFill.style.width = `${(questionNo / maxQuestions) * 100}%`;
 }
 
@@ -368,10 +372,13 @@ function resetState() {
     }
 }
 
-//Turn button green or red when clicked
+/**Turn button green or red when clicked
+ *  Code from Great stack's javascript turorial*/
 function selectAnswer(e) {
     const selectBtn = e.target;
     const isCorrect = selectBtn.dataset.correct === 'true';
+
+    //Add the correct or incorrect class to the clicked button
     if (isCorrect) {
         selectBtn.classList.add('correct');
         score++;
@@ -379,17 +386,23 @@ function selectAnswer(e) {
         selectBtn.classList.add("incorrect");
     }
 
+    // Disable all answer buttons to prevent further clicks
     Array.from(answersButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
+
+        //Disable button after click
         button.disabled = false;
     });
     nextButton.style.display = "block";
-
 }
 
-//Reveal score and play again button
+
+
+/**
+ * Reveal score and play again button
+ * Code from Great stack's javascript turorial */
 function showScore() {
     resetState();
     questionElement.innerHTML = `Final Score ${score} out of ${questions.length}!`;
@@ -405,9 +418,15 @@ function handleNextButton() {
     } else {
         showScore();
     }
+    //Show "Finish button"
+    if (currentQuestionIndex === questions.length - 1) {
+        nextButton.innerHTML = "Finish";
+    }
 }
 
-// Move on to the next question from current question
+/**
+ * Move to the next question from current question
+ * If there are no more questions, restart the quiz by calling startQuiz*/
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();

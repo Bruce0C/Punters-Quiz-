@@ -264,13 +264,12 @@ Navigate to the GitHub Repository you want to clone to use locally:
  
 ### Code credits
 - W3schools.com:[Arrays](https://www.w3schools.com/js/js_arrays.asp), [Variables](https://www.w3schools.com/js/js_variables.asp)and [Functions](https://www.w3schools.com/js/js_functions.asp)
-- Treehouse "Beginner JavaScript Project: Build a Quiz App"
-- James Q Quick "Build a Quiz App(6)" : Used to create loading bar
+- Treehouse "Beginner JavaScript Project: Build a Quiz App" : Used tp gain and understanding of concept and layout.
+- James Q Quick "Build a Quiz App(6)" : Used to create loading bar.
 - W3S JavaScript Tutorials
 - Fontawesome: Used to create a Favicon
-- Great Stack "How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript"
-- Code Institute-Slack Channel
-- Bootstrap, [flex](https://getbootstrap.com/docs/5.3/utilities/flex/#enable-flex-behaviors) and [buttons](https://getbootstrap.com/docs/5.3/components/buttons/#base-class)
+- Great Stack "How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript" : used to prpertly structure javascript.
+- Bootstrap, [flex](https://getbootstrap.com/docs/5.3/utilities/flex/#enable-flex-behaviors) and [buttons](https://getbootstrap.com/docs/5.3/components/buttons/#base-class): used to style buttons and make the website more responsive.
 
 ### Content
 

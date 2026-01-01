@@ -108,3 +108,20 @@ body {
 .incorrect {
     background: #ff00009e;
 }
+
+/* Ensure disabled buttons retain their colors */
+button.correct:disabled {
+    background-color: green; 
+    color: white;
+}
+
+button.incorrect:disabled {
+    background-color: red; 
+    color: white;
+}
+
+/* Remove default disabled button styles */
+button:disabled {
+    opacity: 1; 
+    pointer-events: none; 
+}

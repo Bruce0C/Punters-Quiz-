@@ -1,5 +1,7 @@
-/** All questions were taken from https://paulcooper.uk/2021/01/01/100-pub-quiz-trivia-questions-part-1/
- * Questions were randomly selected between part one and part twelsve of the site */
+/*
+All questions were taken from https://paulcooper.uk/2021/01/01/100-pub-quiz-trivia-questions-part-1/
+Questions were randomly selected between part one and part twelsve of the site
+ */
 const questions = [{
         question: 'What is the Russian equivalent of an American astronaut?',
         answers: [{
@@ -340,8 +342,10 @@ function startQuiz() {
     showQuestion();
 }
 
-/**This function will display the question and its number
- * Code from Great stack's javascript turorial */
+/*
+This function will display the question and its number
+Code from Great stack's javascript turorial
+ */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -359,8 +363,10 @@ function showQuestion() {
         button.addEventListener('click', selectAnswer);
     });
 
-    /**Update the progress bar
-     *  Code from James Q Quick "Build a Quiz App(6)" turorial */
+    /*
+    Update the progress bar
+    Code from James Q Quick "Build a Quiz App(6)" turorial
+    */ 
     progressBarFill.style.width = `${(questionNo / maxQuestions) * 100}%`;
 }
 
@@ -372,8 +378,10 @@ function resetState() {
     }
 }
 
-/**Turn button green or red when clicked
- *  Code from Great stack's javascript turorial*/
+/*
+Turn button green or red when clicked
+Code from Great stack's javascript turorial
+*/
 function selectAnswer(e) {
     const selectBtn = e.target;
     const isCorrect = selectBtn.dataset.correct === 'true';
@@ -386,21 +394,24 @@ function selectAnswer(e) {
         selectBtn.classList.add("incorrect");
     }
 
-    // Disable all answer buttons to prevent further clicks
-    Array.from(answersButtons.children).forEach(button => {
-        if (button.dataset.correct === "true") {
-            button.classList.add("correct");
-        }
+// Disable all answer buttons to prevent further clicks
+Array.from(answersButtons.children).forEach(button => {
+    if (button.dataset.correct === "true") {
+        button.classList.add("correct");
+    } else {
+        button.classList.add("incorrect");
+    }
 
-        //Disable button after click
-        button.disabled = false;
-    });
+    // Disable button after click
+    button.disabled = true;
+});
     nextButton.style.display = "block";
 }
 
-/**
- * Reveal score and play again button
- * Code from Great stack's javascript turorial */
+/*
+Reveal score and play again button
+Code from Great stack's javascript turorial
+ */
 function showScore() {
     resetState();
     questionElement.innerHTML = `Final Score ${score} out of ${questions.length}!`;
@@ -422,9 +433,10 @@ function handleNextButton() {
     }
 }
 
-/**
- * Move to the next question from current question
- * If there are no more questions, restart the quiz by calling startQuiz*/
+/*
+ Move to the next question from current question
+ If there are no more questions, restart the quiz by calling startQuiz
+ */
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();

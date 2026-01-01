@@ -28,47 +28,27 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 
 
 ### Possible Future Plans:
+
 * To add more than 100 or more questions that are randomly generated thereby ensuring the users wont have the same questions asked when playing again.
-* To include a feature where users can save their progress.
+* To include a feature where users can save their progress form a previouse game and see if they can beat thier high score. 
 * To include a feature that can accept multiple teams on the same game and record all team scores in the same game. 
 * To add a timer that disables all buttons after one minute, if the user has not answered a question they would get no points. 
-
-
 
 ## TABLE OF CONTENTS
 
 * [Features](#Features)
     * [Landing Page](#landing-page)
-    * [Quiz PAge](#quiz-page)
+    * [Quiz Page](#quiz-page)
     * [Existing Features](#existing-features)
-    * [Features Left to Implement](#possible-future-plans)
-
 
 * [Design](#design)
 
     * [Wireframes](#wireframes)
 
 * [Technologies](#technologies)
-    * [HTML](#html)
-    * [CSS](#css)
-    * [JavaScript](#javascript)
-    * [Github](#github)
-    * [Git](#git)
-    * [Tinyjpg](#tinypng)
-    * [balsamiq](#balsamiq)
 
 * [Testing](#testing)
-    * [Responsiveness](#responsiveness)
-    * [Accessibility](#accessibility)
-        * [Wave](#wave-accessibility)
-        * [Lighthouse](#lighthouse-testing)
-    * [Functional Testing](#functional-testing)
-    * [Validator Testing](#validator-testing)
-        * [HTML](#html)
-        * [CSS](#css)
-        * [JavaScript](#javascript)
-    * [Bugs/Unfixed Bugs](#bugs-unfixed-bugs)
-
+    * [Testing.md](testing.md)
 * [Deployment](#deployment)
     * [Version Control](#version-control)
     * [Deployment to Github Pages](#deployment-to-github-pages)

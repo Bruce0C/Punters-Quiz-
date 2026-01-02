@@ -89,7 +89,7 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 
 * When an answer is selected the button will change colour to either green or red. 
 * Green highlighting correct answers and red highlighting incorrect answers.
-![Correct and incorrect answers image](assets/images/correct-incorrect.jpeg)
+![Correct and incorrect answers image](assets/images/correct-and-incorrect.jpeg)
 
 * When an aswer is selected the next button then appears to move on to the next question.
 
@@ -100,12 +100,12 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 
 ### Existing Features
 
-* Responsive design
-* Buttons will change colour when hovered over 
-* Buttons will change colour when selected to indicate the correct/incorect answer
+* Responsive to device size.
+* Buttons will change colour to yellow when hovered over. 
+* Buttons will change colour when selected to indicate the correct/incorect answer.
 * Next button appears when a question is answered.
-* Header will take user back to the home page if seleceted, reseting the quiz.
-* Final score is shown at the end of the quiz 
+* "Punters Quiz" header will take user back to the home page if clicked, reseting the quiz.
+* Final score is shown at the end of the quiz.
 
 ### Color Scheme
 

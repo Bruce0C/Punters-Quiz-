@@ -55,7 +55,9 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [script.js](https://github.com/Bruce0C/Punters-Quiz-/blob/main/assets/js/script.js) |  | ![screenshot](assets/images/jshint-test.jpeg) | ⚠️ Notes (if applicable) |
+| assets | [questions.js](https://github.com/Bruce0C/Punters-Quiz-/blob/main/assets/js/questions.js)| https://bruce0c.github.io/Punters-Quiz-/quiz.html| ![screenshot](assets/images/jshint-questions.jpeg) | ⚠️ Notes (if applicable) |
+| assets | [script.js](https://github.com/Bruce0C/Punters-Quiz-/blob/main/assets/js/script.js) |https://bruce0c.github.io/Punters-Quiz-/quiz.html| ![screenshot](assets/images/jshint-script.jpeg) | ⚠️ Notes (if applicable) |
+
 
 ## WAVE
 

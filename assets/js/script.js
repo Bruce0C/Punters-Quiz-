@@ -5,7 +5,7 @@ const questionElement = document.getElementById('question');
 const answersButtons = document.getElementById('answers');
 const nextButton = document.getElementById('next-btn');
 const progressBarFill = document.getElementById('progress-bar-fill');
-const maxQuestions = 20;
+const maxQuestions = Math.min(questions.length, 10); //Set maximum number of questions to 10 or total number of questions available
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -91,7 +91,7 @@ Code from Great stack's javascript turorial
  */
 function showScore() {
     resetState();
-    questionElement.innerHTML = `Final Score ${score} out of ${questions.length}!`;
+    questionElement.innerHTML = `Final Score ${score} out of ${maxQuestions}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
@@ -99,13 +99,13 @@ function showScore() {
 //Show next button
 function handleNextButton() {
     currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < maxQuestions) {
         showQuestion();
     } else {
         showScore();
     }
     //Show "Finish button"
-    if (currentQuestionIndex === questions.length - 1) {
+    if (currentQuestionIndex === maxQuestions - 1) {
         nextButton.innerHTML = "Finish";
     }
 }
@@ -115,7 +115,7 @@ function handleNextButton() {
  If there are no more questions, restart the quiz by calling startQuiz
  */
 nextButton.addEventListener("click", () => {
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < maxQuestions) {
         handleNextButton();
     } else {
         startQuiz();

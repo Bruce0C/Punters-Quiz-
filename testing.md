@@ -43,62 +43,33 @@ As there are on;y two pages the navigation.
 
 
 
-## Validator Testing
-
----
+## Code Validator Testing
 
 ### HTML
 
-[W3C Markup Validator](https://validator.w3.org/)
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-
-- No errors were returned when passing through the official W3S validator
-
-<details>
-<summary>Result</summary>
-Home Page
-
-![HTML Validator Home Page](assets/images/index-html-validator.jpeg)
-
-Quiz Page
-
-![HTML Validator About Us Page](assets/images/quiz-html-validator.jpeg)
-
-</details>
-
+| Directory | File | URL | Screenshot | Notes |
+| --- | --- | --- | --- | --- |
+|  | [404.html](https://github.com/Bruce0C/Punters-Quiz-/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://bruce0c.github.io/Punters-Quiz-/404.html) | ![screenshot](assets/images/404-html-validator.jpeg) |  No errors returned |
+|  | [index.html](https://github.com/Bruce0C/Punters-Quiz-/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://bruce0c.github.io/Punters-Quiz-/index.html) | ![screenshot](assets/images/index-html-validator.jpeg) | No errors returned |
+|  | [quiz.html](https://github.com/Bruce0C/Punters-Quiz-/blob/main/quiz.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://bruce0c.github.io/Punters-Quiz-/quiz.html) | ![screenshot](assets/images/quiz-html-validator.jpeg) | No errors returned |
 
 ### CSS 
 
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-This test returned no errors.
-Results for the CSS:
-
-<details>
-<summary>Result</summary>
-
-- Home Page
-
-![CSS Validator Home Page](assets/images/index-css-validator.jpeg)
-
-Quiz Page
-
-![CSS Validator Quiz Page](assets/images/quiz-css-validator.jpeg)
-
-</details>
+| Directory | File | URL | Screenshot | Notes |
+| --- | --- | --- | --- | --- |
+| assets | [style.css](https://github.com/Bruce0C/Punters-Quiz-/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://bruce0c.github.io/Punters-Quiz-) | ![screenshot](assets/images/quiz-css-validator.jpeg) | Test returned no errors |
 
 ### JS
 
-[JSHint JS Validator](https://jshint.com/)
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
 
-All JavaScript files were validated through JSHint.
-
-<details>
-<summary>Result</summary>
-
-![ JSHint test screenshot](assets/images/jshint-test.jpeg)
-
-</details>
+| Directory | File | URL | Screenshot | Notes |
+| --- | --- | --- | --- | --- |
+| assets | [script.js](https://github.com/Bruce0C/Punters-Quiz-/blob/main/assets/js/script.js) |  | ![screenshot](assets/images/jshint-test.jpeg) | ⚠️ Notes (if applicable) |
 
 ## WAVE
 
@@ -125,10 +96,7 @@ Testing was focused to ensure the following criteria were met:
 
 </details>
 
-
 ## LightHouse
-
----
 
 Lighthouse was accessed through Developer Tools in Chrome and used to analyse:
 
@@ -136,6 +104,14 @@ Lighthouse was accessed through Developer Tools in Chrome and used to analyse:
 - Accessibility
 - Best practice
 - SEO
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
+
+| Page | Mobile | Desktop |
+| --- | --- | --- |
+| Home | ![screenshot](documentation/lighthouse/mobile-home.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
+| Game | ![screenshot](documentation/lighthouse/mobile-game.png) | ![screenshot](documentation/lighthouse/desktop-game.png) |
+| 404 | ![screenshot](documentation/lighthouse/mobile-404.png) | ![screenshot](documentation/lighthouse/desktop-404.png) |
 
 
 <details>
@@ -151,50 +127,52 @@ Lighthouse was accessed through Developer Tools in Chrome and used to analyse:
 
 </details>
 
-## Browser Compatibility
-
-This website was tested on Chrome and Safari for desktop. The website was also tested on Safari for iphones and ipad, macbook.
-
+| Page | Chrome | Firefox | Safari | Notes |
+| --- | --- | --- | --- | --- |
+| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
+| Game | ![screenshot](documentation/browsers/chrome-game.png) | ![screenshot](documentation/browsers/firefox-game.png) | ![screenshot](documentation/browsers/safari-game.png) | Works as expected |
+| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
 ## Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 375px and upwards.
 
-Responsiveness was tested through Chrome Developer tools. The devices tested include:
-
-- iPhone SE
-- iPhone XR
-- iPhone 12 Pro
-- iPhone 14 Pro Max
-- Pixel 7
-- Samsung Galaxy S8+
-- Samsung Galaxy S20 Ultra
-- iPad Mini
-- iPad Air
-- iPad Pro
-- Surface Pro 7
-- Surface Duo
-- Galaxy Z Fold 5
-- Asus Zenbook Fold
-- Samsung Galaxy A51/71
-- Nest Hub
-- Nest Hub Max
-
 Direct testing was done on an iPhone 12, Ipad 12, Macbook and an HP M22f (21.5") screen.
 
-Steps to test:
+I've tested my deployed project to check for responsiveness issues.
 
-1. Open browser and navigate to Punters Quiz
-2. Open the developer tools (right click and inspect)
-3. Set to responsive and decrease width to 375px
-4. Set the zoom to 90%
-5. Click and drag the responsive window to maximum width.
+| Page | Mobile | Tablet | Desktop | Notes |
+| --- | --- | --- | --- | --- |
+| Home | ![screenshot](assets/images/home-page-mobile.jpeg) | ![screenshot](assets/images/home-page-tablet.jpeg) | ![screenshot](assets/images/home-page.jpeg) | Works as expected |
+| Quiz | ![screenshot](assets/images/quiz-page-mobile.jpeg) | ![screenshot](assets/images/quiz-page-tablet.jpeg) | ![screenshot](assets/images/quiz-page.jpeg) | Works as expected |
+| 404 | ![screenshot](assets/images/404-page-mobile.jpeg) | ![screenshot](assets/images/404-page-tablet.jpeg) | ![screenshot](assets/images/404page.jpeg) | Works as expected |
 
-Results:
+## Browser Compatibility
 
-- The website was responsive on all screen sizes.
-- No horizontal scroll was present.
-- No elements overlaped
+I've tested my deployed project on multiple browsers to check for compatibility issues.
 
+| Page | Chrome | Firefox | Safari | Notes |
+| --- | --- | --- | --- | --- |
+| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
+| Game | ![screenshot](documentation/browsers/chrome-game.png) | ![screenshot](documentation/browsers/firefox-game.png) | ![screenshot](documentation/browsers/safari-game.png) | Works as expected |
+| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+
+## User Story Testing
+
+| Target | Expectation | Outcome | Screenshot |
+| --- | --- | --- | --- |
+| As a user | I would like to start the quiz by clicking a clearly visible start button | so that I can begin answering the quiz questions | ![screenshot](documentation/features/feature01.png) |
+| As a user | I would like to answer a total of 20 questions in the quiz | so that I can fully test my knowledge | ![screenshot](documentation/features/feature02.png) |
+| As a user | I would like to see the correct answer highlighted in green after selecting an option | so that I can clearly identify the correct answer | ![screenshot](documentation/features/feature03.png) |
+| As a user | I would like to see incorrect answers highlighted in red after making a selection | so that I can understand which answers were wrong | ![screenshot](documentation/features/feature04.png) |
+| As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. | ![screenshot](documentation/features/feature05.png) |
+| As a user | I would like clear labels and instructions | so that I understand how to use the app without confusion. | ![screenshot](documentation/features/feature06.png) |
+| As a user |I would like the next button to appear only after I select an answer | so that I can move through the quiz at the correct pace| ![screenshot](documentation/features/feature07.png) |
+| As a user |  I would like buttons to change color when I hover over them | so that I can see visual feedback and know the app is responsive  | ![screenshot](documentation/features/feature08.png) |
+| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature09.png) |
+| As a user | I would like answer buttons to turn yellow when hovered over | so that I can easily identify which option I am about to select |  ![screenshot](documentation/features/feature09.png) |
+| As a user | I would like the start quiz button to turn green when hovered over | so that I can clearly see it is interactive |  ![screenshot](documentation/features/feature09.png) |
+| As a user | I would like to see my final score displayed at the end of the quiz | so that I can understand how well I performed |  ![screenshot](documentation/features/feature09.png) |
+| As a user | I would like to be prompted to try the quiz again after finishing | so that I can improve my score by replaying |  ![screenshot](documentation/features/feature09.png) |
 
 **QUIZ Testing**
 
@@ -259,5 +237,3 @@ Score:
 - Expected: One point is awarded for each correct answer, for a total of 20 points. 
 - Actual: When clicked more than once, the same correct answer can award multiple points before moving on to the next question.
 - Solution: By using "button.disabled = true" in javascript, the desired effect of disabling the buttons is made possible. 
-
-

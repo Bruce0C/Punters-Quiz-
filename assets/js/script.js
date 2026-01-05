@@ -12,6 +12,7 @@ let score = 0;
 
 //This function will initiate the quiz
 function startQuiz() {
+    questions.sort(() => Math.random() - 0.5); //Shuffle questions
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";

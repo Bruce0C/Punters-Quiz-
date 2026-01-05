@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 /*
 Questions
 All questions were taken from https://paulcooper.uk/2021/01/01/100-pub-quiz-trivia-questions-part-1/

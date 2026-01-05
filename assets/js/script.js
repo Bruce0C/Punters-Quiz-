@@ -1,4 +1,4 @@
-
+/* jshint esversion: 11 */
 
 //Constants 
 const questionElement = document.getElementById('question');

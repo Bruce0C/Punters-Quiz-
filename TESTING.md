@@ -1,19 +1,5 @@
 # Testing
 
-## Contents
-
-- [Functional Testing](#functional-testing)
-- [Validator Testing](#validator-testing)
-  - [HTML](#html)
-  - [CSS](#css)
-  - [JS](#js)
-- [WAVE](#wave)
-- [LightHouse](#lighthouse)
-- [Browser Compatibility](#browser-compatibility)
-- [Responsivity](#responsivity)
-- [Issues/ Bugs Found & Resolved](#issues-bugs)
-- [Unresolved](#unresolved)
-
 ## Functional Testing
 
 ---

@@ -12,7 +12,6 @@ View the live website here [Punters Quiz](https://bruce0c.github.io/Punters-Quiz
 ### Initial Discussion
 Pub quizes have always been a good reaon for people to come together, get to know new friends and meet old ones. All the while showing off being either an expert on random trivia or clueless amazed that anyone would have answer these questions. Quizes are also a good way to spend a casual evening with friends and have friendly competition.  
 
-
 ### External User's Goal:
 
 * To be able to visit the website and play the game.
@@ -26,7 +25,6 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 * Idicates wether or not a question is correct or incorrect.
 * Records the final score at the end of the quiz. 
 
-
 ### Possible Future Plans:
 
 * To add more than 100 or more questions that are randomly generated thereby ensuring the users wont have the same questions asked when playing again.
@@ -34,31 +32,8 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 * To include a feature that can accept multiple teams on the same game and record all team scores in the same game. 
 * To add a timer that disables all buttons after one minute, if the user has not answered a question they would get no points. 
 
-## TABLE OF CONTENTS
-
-* [Features](#Features)
-    * [Landing Page](#landing-page)
-    * [Quiz Page](#quiz-page)
-    * [Existing Features](#existing-features)
-
-* [Design](#design)
-
-    * [Wireframes](#wireframes)
-
-* [Technologies](#technologies)
-
-* [Testing](#testing)
-    * [Testing.md](testing.md)
-* [Deployment](#deployment)
-    * [Version Control](#version-control)
-    * [Deployment to Github Pages](#deployment-to-github-pages)
-    * [Clone the Repository Code Locally](#clone-the-repository-code-locally)
-
 * [Resources, References and Credit](#resources-references-and-credit)
     
-
-
-
 ## Features
  The website has two pages.
  * Landing page - this is where the quiz is introduced and explained.
@@ -178,7 +153,7 @@ The validators used to check for bugs were:
  * [HTML checker](https://validator.w3.org/)
  * [CSS validation service](https://jigsaw.w3.org/css-validator/)
 
-See [TESTING.md](testing.md) for an overview of website testing and debugging.
+See [TESTING.md](TESTING.md) for an overview of website testing and debugging.
 
 
 # Deployment

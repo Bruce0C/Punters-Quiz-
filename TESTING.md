@@ -61,17 +61,14 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## WAVE
 
----
 
-[WAVE](https://wave.webaim.org/)
+Accessibility standards were checked using [WAVE](https://wave.webaim.org/).
 
-Accessibility standards were checked using WAVE WebAIM
+|  Page  | Screenshot |
+| --- | --- | 
+| Home| ![screenshot](assets/images/index-wave-test.jpeg) | 
+| Quiz| ![screenshot](assets/images/quiz-wave-test.jpeg) | 
 
-<details>
-<summary>Result</summary>
-
-![Index Wave test ](assets/images/index-wave-test.jpeg)
-![Quiz Wave test ](assets/images/quiz-wave-test.jpeg)
 
 Testing was focused to ensure the following criteria were met:
 
@@ -82,7 +79,6 @@ Testing was focused to ensure the following criteria were met:
 - HTML page lang attribute has been set.
 - Aria properties have been implemented correctly.
 
-</details>
 
 ## LightHouse
 
@@ -138,18 +134,18 @@ I've tested my deployed project to check for responsiveness issues.
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Page | Chrome | Firefox | Safari | Notes |
-| --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Game | ![screenshot](documentation/browsers/chrome-game.png) | ![screenshot](documentation/browsers/firefox-game.png) | ![screenshot](documentation/browsers/safari-game.png) | Works as expected |
-| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+| Page | Chrome | Safari | Notes |
+| --- | --- | --- | --- |
+| Home | ![screenshot](assets/images/home-chrome.jpeg) | ![screenshot](assets/images/home-safari.jpeg)  | Works as expected |
+| Quiz | ![screenshot](assets/images/quiz-chrome.jpeg) | ![screenshot](assets/images/quiz-safari.jpeg)   | Works as expected |
+| 404 | ![screenshot](assets/images/404-chrome.jpeg) | ![screenshot](assets/images/404-safari.jpeg)  | Works as expected |
 
 ## User Story Testing
 
 | Target | Expectation | Outcome | Screenshot |
 | --- | --- | --- | --- |
 | As a user | I would like to start the quiz by clicking a clearly visible start button | so that I can begin answering the quiz questions | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to answer a total of 20 questions in the quiz | so that I can fully test my knowledge | ![screenshot](documentation/features/feature02.png) |
+| As a user | I would like to answer a total of 10 questions in the quiz | so that I can fully test my knowledge | ![screenshot](documentation/features/feature02.png) |
 | As a user | I would like to see the correct answer highlighted in green after selecting an option | so that I can clearly identify the correct answer | ![screenshot](documentation/features/feature03.png) |
 | As a user | I would like to see incorrect answers highlighted in red after making a selection | so that I can understand which answers were wrong | ![screenshot](documentation/features/feature04.png) |
 | As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. | ![screenshot](documentation/features/feature05.png) |

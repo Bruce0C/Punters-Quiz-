@@ -152,9 +152,9 @@ The validators used to check for bugs were:
  * [Chrome Developer tools](https://developer.chrome.com/docs/devtools)
  * [HTML checker](https://validator.w3.org/)
  * [CSS validation service](https://jigsaw.w3.org/css-validator/)
+ * [Jshint](https://jshint.com/)
 
 See [TESTING.md](TESTING.md) for an overview of website testing and debugging.
-
 
 # Deployment
 

@@ -8,7 +8,7 @@
 | :--------- | :------------------------------------------------------------------------------------- | :--------------------: |
 | All        | Navigation links to relevant pages                                                     |          Yes           |
 | All        | Hover effect over buttons                                                              |          Yes           |
-| Home page   | Images and text flex responsively                                                      |          Yes           |
+| Home page  | Images and text flex responsively                                                      |          Yes           |
 | Home page  | "Start Quiz" button takes user to the quiz page when clicked                           |          Yes           |
 | Quiz       | Question and answer content fits within the screen                                     |          Yes           |
 | Quiz       | Questions and answers load in correct order question                                   |          Yes           |
@@ -79,7 +79,6 @@ Testing was focused to ensure the following criteria were met:
 - HTML page lang attribute has been set.
 - Aria properties have been implemented correctly.
 
-
 ## LightHouse
 
 Lighthouse was accessed through Developer Tools in Chrome and used to analyse:
@@ -93,29 +92,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop |
 | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/mobile-home.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
-| Game | ![screenshot](documentation/lighthouse/mobile-game.png) | ![screenshot](documentation/lighthouse/desktop-game.png) |
-| 404 | ![screenshot](documentation/lighthouse/mobile-404.png) | ![screenshot](documentation/lighthouse/desktop-404.png) |
+| Home | ![screenshot](assets/images/home-lighthouse-mobile.jpeg)  | ![screenshot](assets/images/home-lighthouse-desktop.jpeg) |
+| Quiz | ![screenshot](assets/images/quiz-lighthouse-mobile.jpeg) | ![screenshot](assets/images/quiz-lighthouse-desktop.jpeg) |
+| 404 | ![screenshot](assets/images/404-lighthouse-mobile.jpeg)  | ![screenshot](assets/images/404-lighthouse-desktop.jpeg) |
 
-
-<details>
-<summary>Homepage</summary>
-
-![Home lighthouse test](assets/images/home-lighthouse-test.jpeg)
-
-</details>
-<details>
-<summary>Quiz Page</summary>
-
-![Quiz lighthouse test](assets/images/quiz-lighthouse-test.jpeg)
-
-</details>
-
-| Page | Chrome | Firefox | Safari | Notes |
-| --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Game | ![screenshot](documentation/browsers/chrome-game.png) | ![screenshot](documentation/browsers/firefox-game.png) | ![screenshot](documentation/browsers/safari-game.png) | Works as expected |
-| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
 ## Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 375px and upwards.
@@ -144,19 +124,17 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Target | Expectation | Outcome | Screenshot |
 | --- | --- | --- | --- |
-| As a user | I would like to start the quiz by clicking a clearly visible start button | so that I can begin answering the quiz questions | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to answer a total of 10 questions in the quiz | so that I can fully test my knowledge | ![screenshot](documentation/features/feature02.png) |
-| As a user | I would like to see the correct answer highlighted in green after selecting an option | so that I can clearly identify the correct answer | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like to see incorrect answers highlighted in red after making a selection | so that I can understand which answers were wrong | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like clear labels and instructions | so that I understand how to use the app without confusion. | ![screenshot](documentation/features/feature06.png) |
-| As a user |I would like the next button to appear only after I select an answer | so that I can move through the quiz at the correct pace| ![screenshot](documentation/features/feature07.png) |
-| As a user |  I would like buttons to change color when I hover over them | so that I can see visual feedback and know the app is responsive  | ![screenshot](documentation/features/feature08.png) |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature09.png) |
-| As a user | I would like answer buttons to turn yellow when hovered over | so that I can easily identify which option I am about to select |  ![screenshot](documentation/features/feature09.png) |
-| As a user | I would like the start quiz button to turn green when hovered over | so that I can clearly see it is interactive |  ![screenshot](documentation/features/feature09.png) |
-| As a user | I would like to see my final score displayed at the end of the quiz | so that I can understand how well I performed |  ![screenshot](documentation/features/feature09.png) |
-| As a user | I would like to be prompted to try the quiz again after finishing | so that I can improve my score by replaying |  ![screenshot](documentation/features/feature09.png) |
+| As a user | I would like to start the quiz by clicking a clearly visible start button | so that I can begin answering the quiz questions | ![screenshot](assets/images/start-button.jpeg)  |
+| As a user | I would like to answer a total of 10 questions in the quiz | so that I can fully test my knowledge | ![screenshot](assets/images/final-score.jpeg) |
+| As a user | I would like to see the correct answer highlighted in green after selecting an option | so that I can clearly identify the correct answer | ![screenshot](assets/images/highlighted-answers.jpeg) |
+| As a user | I would like to see incorrect answers highlighted in red after making a selection | so that I can understand which answers were wrong | ![screenshot](assets/images/highlighted-answers.jpeg)|
+| As a user | I would like the application to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. | ![screenshot](assets/images/quiz-page-mobile.jpeg) |
+| As a user | I would like clear labels and instructions | so that I understand how to use the app without confusion. | ![screenshot](assets/images/home-page-mobile.jpeg) |
+| As a user |I would like the next button to appear only after I select an answer | so that I can move through the quiz at the correct pace| ![screenshot](assets/images/highlighted-answers.jpeg) |
+| As a user |  I would like buttons to change color when I hover over them | so that I can see visual feedback and know the app is responsive  | ![screenshot](assets/images/button-hover-yellow.jpeg) |
+| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](assets/images/404-page-mobile.jpeg)|
+| As a user | I would like to see my final score displayed at the end of the quiz | so that I can understand how well I performed |  ![screenshot](assets/images/final-score.jpeg) |
+| As a user | I would like to be prompted to try the quiz again after finishing | so that I can improve my score by replaying |  ![screenshot](assets/images/final-score.jpeg) |
 
 **QUIZ Testing**
 

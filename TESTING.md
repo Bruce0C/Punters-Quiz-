@@ -146,17 +146,9 @@ The answer button were tested to ensure the user could, select an anwer, be info
 
 ## Resolved issues/bugs
 
-* The initial W3S Mark Up Validation returned some warnings and a single error for the home page. The error was due to an unused variable and all warnings were a result of trailing slashes on void elements. All errors and warnings were resoleved.
-* The initial JsHint test results returned with multiple warnings in regards to semicolons being left out. As JS Hint highlights these errors the issue was quickly resolved. 
-
-**Interactivity**:
-
-- Expected: That all JavaScript functions would work as intended for the website's optimum interactivity.
-- Actual: Most of of the functions work however disabling the answer button also means being unable to show the correct/ incorrect answers.
-- Solution: By using "button.correct:disabled" and "button.incorrect:disabled" in the css file, this ensures the colors for correct and incorrect answers are visible even when the buttons are disabled. Changing the default styling of the disabled buttons to make them visible but non-interactive.
-
-**Score**:
-
-- Expected: One point is awarded for each correct answer, for a total of 10 points. 
-- Actual: When clicked more than once, the same correct answer can award multiple points before moving on to the next question.
-- Solution: By using "button.disabled = true" in javascript, this prevents users from scoring more than once for each question.
+| Aspect          | Expected Outcome                                                                 | Actual Outcome                                                                                   | Solution                                                                                           |
+|------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **W3C Markup Validation** | No errors or warnings in the HTML code.                                   | Initial validation returned warnings for trailing slashes on void elements and one unused variable. | All errors and warnings were resolved.                                                            |
+| **JsHint Validation**      | No warnings or errors in the JavaScript code.                           | Initial validation returned multiple warnings about missing semicolons.                          | Added missing semicolons to resolve all warnings.                                                 |
+| **Interactivity**          | All JavaScript functions work as intended for optimal interactivity.    | Disabling the answer button prevented the correct/incorrect answers from being displayed.         | Used `button.correct:disabled` and `button.incorrect:disabled` in the CSS file to ensure visibility of button colors even when disabled. |
+| **Score Calculation**      | One point is awarded for each correct answer, with a maximum of 10 points. | Clicking the same correct answer multiple times awarded multiple points.                         | Used `button.disabled = true` in JavaScript to prevent users from scoring multiple points for the same question. |

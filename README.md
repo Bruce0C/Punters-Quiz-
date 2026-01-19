@@ -200,45 +200,38 @@ The validators used to check for bugs were:
 
 See [TESTING.md](TESTING.md) for an overview of website testing and debugging.
 
-# Deployment
+## Deployment to GitHub
 
-## Version Control
+### Creating the Repository on GitHub
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘Punters Quiz’.
+1. Log in to your [GitHub account](https://github.com/).
+2. Click on the **New** button to create a new repository.
+3. Select the relevant template (e.g., "Code-Institute-Org/gitpod-full-template").
+4. Enter the repository name (e.g., "Punters Quiz").
+5. Click the **Create repository** button.
 
-The following git commands were used throughout development to push code to the remote repo:
+### Committing and Pushing Code to GitHub
 
-```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+This project was developed using [Visual Studio Code](https://code.visualstudio.com/) and committed and pushed to GitHub using the VS Code source control feature. The following Git commands were used:
 
-```git commit -m “commit message” ``` - This command was used to commit changes to the local repository queue ready for the final step.
+1. **Stage Changes**: Add files to the staging area using the command:
+   ```bash
+   git add .
 
-```git push``` - This command was used to push all committed code to the remote repository on github.
+2. **Commit Changes**: Commit the staged changes with a descriptive message:
+   ```bash
+   git commit -m "Your commit message here"
+* Use prefixes like docs:, style:, or fix: in the commit message to clarify the nature of the update.
 
+3. Push Changes: Push the committed changes to the GitHub repository:
+   ```bash
+   git push
 
-## Deployment to Github Pages
+Alternatively, you can use the VS Code source control feature:
 
-This project was created through [GitHub](https://github.com/):
-
-1. Locating repository, clicking on the "New" button.
-2. Selecting the relevant template: "Code-Institute-Org/gitpod-full-template"
-3. Adding the repository name "Punters Quiz".
-4. Clicking the button "Create repository".
-
-This project was developed using [Visual Studio Code](https://code.visualstudio.com/) and committed and pushed to GitHub using the VS-Code source control feature. Following "git commands" were used:
-
-1. **Commit** - This command for multiple files to the staging area before pushing the code to Github.
-2. **git commit -m "Message explaining update"** - Typically the message would inlcude "docs:, style: and fix:" before the message explaining the update to clarify the nature of the commit.
-3. **Push** - After commiting the changes, select the dropdown menu on the commit button and select "Push". This action sent all changes to the Github repository. 
-
-This project was deployed from its Github repository to Github Pages:
-
-1. Log in to Github account
-2. From the projects repository selecting "Settings" tab.
-3. Click on "Pages" from the left-hand menu
-4. The "Source" box must state "Deplay from branch"
-5. Under "Branch", click the dropdown named "None" and select "main".
-6. Click save.
-7. After a few seconds, refresh the page and retrieve the link.
+1. Stage changes by clicking the + icon next to the files.
+2. Add a commit message in the text box and click the Commit button.
+3. Use the dropdown menu on the commit button and select Push to send the changes to the GitHub repository.
 
 
 ### Clone the Repository Code Locally

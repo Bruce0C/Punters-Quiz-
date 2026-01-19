@@ -268,3 +268,7 @@ To clone the GitHub repository to your local machine, follow these steps:
 ### Content
 
 All questions provided were taken from [Paul Cooper.uk](https://paulcooper.uk/2021/01/01/100-pub-quiz-trivia-questions-part-1/) "100 free pub quiz trivia questions.
+
+## Acknowledgements
+
+I would like to thank my mentor [Tim Nelson](https://github.com/TravelTimN) for his help on this project.

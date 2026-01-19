@@ -23,19 +23,22 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 * Time-Efficient Gameplay: The quiz is designed to be concise, with a maximum of 10 questions, making it suitable for quick play sessions.
 
 
-
 ### Site Owner's Goal:
 
-* Make a quiz that responds to varying device sizes. 
-* Idicates wether or not a question is correct or incorrect.
-* Records the final score at the end of the quiz. 
+* Responsive and Interactive Design: Ensure the quiz is interactive, with buttons that respond to user input and disable after being clicked to prevent multiple selections.
+* Provide a Functional Quiz: Ensure the quiz works seamlessly, allowing users to start, progress through questions, and complete the quiz.
+* Randomized Content: Implement randomization of both questions and answers to provide a fresh experience every time the quiz is played.
+* Answer Feedback: Provide immediate feedback to users by visually indicating whether their selected answer is correct (e.g., turning the button green or red).
+* Score Tracking: Keep track of the user's score throughout the quiz and display the final score at the end.
+* Progress Tracking: Include a progress bar that updates dynamically as users answer questions, showing how far they are in the quiz.
+* Replayability: Allow users to restart the quiz after completing it, ensuring they can play multiple times.
 
 ### Possible Future Plans:
 
-* To add more than 100 or more questions that are randomly generated thereby ensuring the users wont have the same questions asked when playing again.
+* To add more than 100 or more questions that are randomly generated thereby ensuring the users wont have the same questions asked when playing more than two games.
 * To include a feature where users can save their progress form a previouse game and see if they can beat thier high score. 
 * To include a feature that can accept multiple teams on the same game and record all team scores in the same game. 
-* To add a timer that disables all buttons after one minute, if the user has not answered a question they would get no points. 
+* To add a timer that disables all buttons after one minute, resulting in the user not getting points for time wasting. 
 
 * [Resources, References and Credit](#resources-references-and-credit)
     

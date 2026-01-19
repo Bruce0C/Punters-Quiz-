@@ -1,6 +1,6 @@
 # **Punters Quiz**
 
-The Punters quiz is a basic quiz than covers popular pub quiz trivia. This site will cover twenty questions on random topics and give the user a score at the end of the quiz. Keepping the quiz breif but enjoyable this quiz can be for any user who wants to challenge their knowledge either as an individual or in a team. 
+The Punters quiz is a basic quiz than covers popular pub quiz trivia. This site will cover ten questions on random topics and give the user a score at the end of the quiz. The quiz is breif but enjoyable and is for any user who wants to challenge their knowledge either as an individual or in a team. 
 
 View the live website here [Punters Quiz](https://bruce0c.github.io/Punters-Quiz-/index.html).
 
@@ -14,9 +14,14 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 
 ### External User's Goal:
 
-* To be able to visit the website and play the game.
-* To have fun while engaging ones brain.
-* To be able to play the game on different devices.
+* Play a Quiz Game: Users should be able to start and play a quiz game with a set number of questions (up to 10 or the total number of available questions).
+* Answer Questions: Users should be able to select answers for each question and receive immediate feedback on whether their answer is correct or incorrect (via color changes on the buttons).
+* Track Progress: Users should see their progress through the quiz via a progress bar that updates as they answer questions.
+* View Final Score: At the end of the quiz, users should be able to see their final score out of the total number of questions.
+* Replay the Quiz: Users should have the option to restart the quiz and play again after completing it.
+* Engage with Randomized Content: Users should experience a randomized order of questions and answers each time they play, ensuring a fresh experience.
+* Time-Efficient Gameplay: The quiz is designed to be concise, with a maximum of 10 questions, making it suitable for quick play sessions.
+
 
 
 ### Site Owner's Goal:

@@ -39,13 +39,46 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 * To include a feature where users can save their progress form a previouse game and see if they can beat thier high score. 
 * To include a feature that can accept multiple teams on the same game and record all team scores in the same game. 
 * To add a timer that disables all buttons after one minute, resulting in the user not getting points for time wasting. 
-
-* [Resources, References and Credit](#resources-references-and-credit)
     
 ## Features
- The website has two pages.
- * Landing page - this is where the quiz is introduced and explained.
- * Quiz page- this is where the quiz is staged.
+ 
+ 1. Quiz Initialization:
+* The quiz starts with a shuffled set of questions.
+* The quiz is limited to a maximum of 10 questions or the total number of available questions, whichever is smaller.
+
+ 2. Randomized Questions and Answers:
+* Questions are shuffled at the start of the quiz.
+* Answers for each question are also randomized to ensure a fresh experience.
+
+3. Question Display:
+* Displays the current question along with its number.
+* Dynamically generates answer buttons for each question.
+
+4. Answer Selection:
+* Users can select an answer by clicking on a button.
+* Immediate feedback is provided by changing the button color to green (correct) or red (incorrect).
+* All answer buttons are disabled after a selection to prevent multiple clicks.
+
+5. Score Tracking:
+* The user's score is tracked and updated for each correct answer.
+
+6. Progress Bar:
+* A progress bar dynamically updates to show the user's progress through the quiz.
+
+7. Next Question Navigation:
+* A "Next" button allows users to proceed to the next question.
+* The button text changes to "Finish" on the last question.
+
+8. Final Score Display:
+* At the end of the quiz, the user's final score is displayed.
+
+9. Replayability:
+* After completing the quiz, users can restart the quiz by clicking the "Play Again" button.
+
+10. Interactive Design:
+* Buttons are interactive and visually respond to user input.
+* Answer buttons are disabled after being clicked to prevent multiple selections.
+
 
 ### Landing Page
 

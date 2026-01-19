@@ -4,7 +4,6 @@ The Punters quiz is a basic quiz than covers popular pub quiz trivia. This site 
 
 View the live website here [Punters Quiz](https://bruce0c.github.io/Punters-Quiz-/index.html).
 
-
 ![Mockup](assets/images/multiple-devices.jpeg)
 
 ## User Experience

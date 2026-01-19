@@ -135,50 +135,14 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 **QUIZ Testing**
 
+## Testing Scenarios
+
 The answer button were tested to ensure the user could, select an anwer, be informed if the they were correct and have the next button appear as a prompt to move through the questions:
 
-_Scenario One - Correct Answer_
-
-Steps to test:
-
-1. Navigate to [Punters Quiz](https://bruce0c.github.io/Punters-Quiz-/index.html) home page.
-
-2. Click 'Start quiz' button:
-   
-3. Click the correct answer to question 1.
-
-4. The background of the correct answer turns green. 
-
-Expected:
-
-A point is awarded to the user and the next button appears.
-
-Actual:
-
-Website behaved as expected with no errors. 
-
-_Scenario Two - Incorrect answer_
-
-Steps to test:
-
-1. Navigate to [Punters Quiz](https://bruce0c.github.io/Punters-Quiz-/index.html) home page.
-
-2. Click 'Start quiz' button:
-   
-3. Click the incorrect answer to question 1.
- 
-4. The background of the incorrect answer turns red.
-
-5. The correct answer should be revealed simultaneously with a green background.
-
-
-Expected:
-
-No points are awareded to the user and the next button appears.
-
-Actual:
-
-Website behaved as expected. If the user only selects incorrect answers, the final score will show as '0 out of 10'. 
+| Scenario      | Steps to Test    | Expected Outcome    | Actual Outcome    |
+|------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| **Scenario One - Correct Answer** | 1. Navigate to [Punters Quiz](https://bruce0c.github.io/Punters-Quiz-/index.html) home page. <br> 2. Click 'Start quiz' button. <br> 3. Click the correct answer to question 1. <br> 4. The background of the correct answer turns green. | A point is awarded to the user and the next button appears.                                        | Website behaved as expected with no errors.                                                       |
+| **Scenario Two - Incorrect Answer** | 1. Navigate to [Punters Quiz](https://bruce0c.github.io/Punters-Quiz-/index.html) home page. <br> 2. Click 'Start quiz' button. <br> 3. Click the incorrect answer to question 1. <br> 4. The background of the incorrect answer turns red. <br> 5. The correct answer should be revealed simultaneously with a green background. | No points are awarded to the user and the next button appears.                                     | Website behaved as expected. If the user only selects incorrect answers, the final score will show as '0 out of 10'. |
 
 ## Resolved issues/bugs
 

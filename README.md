@@ -243,15 +243,15 @@ This project was deployed from its Github repository to Github Pages:
 
 ### Clone the Repository Code Locally
 
-Navigate to the GitHub Repository you want to clone to use locally:
+To clone the GitHub repository to your local machine, follow these steps:
 
-- Click on the code drop down button
-- Click on HTTPS
-- Copy the repository link to the clipboard
-- Open your IDE of choice (git must be installed for the next steps)
-- Type git clone copied-git-url into the IDE terminal
-
-- The project will now have been cloned on your local machine for use.
+1. Navigate to the GitHub repository you want to clone.
+2. Click on the **Code** dropdown button.
+3. Select **HTTPS** and copy the repository link to your clipboard.
+4. Open your IDE or terminal (ensure Git is installed on your system).
+5. In the terminal, type the following command and press Enter:
+   ```bash
+   git clone <copied-git-url>
 
 
 ## Resources, References and Credit

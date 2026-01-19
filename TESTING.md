@@ -147,7 +147,7 @@ Steps to test:
    
 3. Click the correct answer to question 1.
 
-4. When no longer hovering over the question, the background of the button should be green. 
+4. The background of the correct answer turns green. 
 
 Expected:
 
@@ -167,32 +167,32 @@ Steps to test:
    
 3. Click the incorrect answer to question 1.
  
-4. When no longer hovering over the question, the background of the button should be red.
+4. The background of the incorrect answer turns red.
 
 5. The correct answer should be revealed simultaneously with a green background.
 
 
 Expected:
 
-No points are awareded to the user and the next button appears, allowing them to move through the quiz.
+No points are awareded to the user and the next button appears.
 
 Actual:
 
-Website behaved as expected. If the user only selects incorrect answers, the final score will show as '0 out of 20" 
+Website behaved as expected. If the user only selects incorrect answers, the final score will show as '0 out of 10'. 
 
 ## Resolved issues/bugs
 
 * The initial W3S Mark Up Validation returned some warnings and a single error for the home page. The error was due to an unused variable and all warnings were a result of trailing slashes on void elements. All errors and warnings were resoleved.
-* The initial JsHint test results returned with multiple warnings in regards to semicolons being left out. as JS Hint highlights these errors the issue was quickly resolved. 
+* The initial JsHint test results returned with multiple warnings in regards to semicolons being left out. As JS Hint highlights these errors the issue was quickly resolved. 
 
-Interactivity:
+**Interactivity**:
 
-- Expected: That all JavaScript functions would work  as intended for the website's optimum interactivity.
+- Expected: That all JavaScript functions would work as intended for the website's optimum interactivity.
 - Actual: Most of of the functions work however disabling the answer button also means being unable to show the correct/ incorrect answers.
 - Solution: By using "button.correct:disabled" and "button.incorrect:disabled" in the css file, this ensures the colors for correct and incorrect answers are visible even when the buttons are disabled. Changing the default styling of the disabled buttons to make them visible but non-interactive.
 
-Score:
+**Score**:
 
-- Expected: One point is awarded for each correct answer, for a total of 20 points. 
+- Expected: One point is awarded for each correct answer, for a total of 10 points. 
 - Actual: When clicked more than once, the same correct answer can award multiple points before moving on to the next question.
-- Solution: By using "button.disabled = true" in javascript, the desired effect of disabling the buttons is made possible. 
+- Solution: By using "button.disabled = true" in javascript, this prevents users from scoring more than once for each question.

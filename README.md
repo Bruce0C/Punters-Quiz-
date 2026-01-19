@@ -188,7 +188,6 @@ Results page
 * Procreate
     * [Proceate](https://procreate.com/) was used to edite and style the favicon, logo image and 404 image.
 
-
 ## Testing
 
 The website was tested throughout the creation and development process.

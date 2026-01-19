@@ -4,19 +4,18 @@
 
 ---
 
-| Page       | Test                                                                                   | Completed successfully |
+| Page       | Test   | Completed successfully |
 | :--------- | :------------------------------------------------------------------------------------- | :--------------------: |
-| All        | Navigation links to relevant pages                                                     |          Yes           |
-| All        | Hover effect over buttons                                                              |          Yes           |
-| Home page  | Images and text flex responsively                                                      |          Yes           |
-| Home page  | "Start Quiz" button takes user to the quiz page when clicked                           |          Yes           |
-| Quiz       | Question and answer content fits within the screen                                     |          Yes           |
-| Quiz       | Questions and answers load in correct order question                                   |          Yes           |
-| Quiz       | Progress bar fills when user moves through the questions                               |          Yes           |
-| Quiz       | Green background appears on correct answer                                             |          Yes           |
-| Quiz       | Push current question out of question array                                            |          Yes           |
-| Quiz       | Reddisplayed                                                                           |          Yes           |
-| Score      | User can see their results when quiz is complete                                       |          yes           |
+| All        | Navigation links to relevant pages                             |          Yes           |
+| All        | Hover effect over buttons                                      |          Yes           |
+| Home page  | Images and text flex responsively                              |          Yes           |
+| Home page  | "Start Quiz" button takes user to the quiz page when clicked   |          Yes           |
+| Quiz       | Question and answer content fits within the screen             |          Yes           |
+| Quiz       | Questions and answers load in correct order question           |          Yes           |
+| Quiz       | Progress bar fills when user moves through the questions       |          Yes           |
+| Quiz       | Green background appears on correct answer                     |          Yes           |
+| Quiz       | Red background appears on incorrect answers                    |          Yes           |
+| Score      | User can see their results when quiz is complete               |          yes           |
 
 **Navigation Links**
 
@@ -26,8 +25,6 @@ As there are on;y two pages the navigation.
 |-----------------|---------------|-----------|
 | Sart quiz       |  quiz.html    |   Yes     |
 | Punters QUIZ    |  index.html   |   Yes     |
-
-
 
 ## Code Validator Testing
 

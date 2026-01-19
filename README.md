@@ -82,22 +82,23 @@ Pub quizes have always been a good reaon for people to come together, get to kno
 
 ### Landing Page
 
-* The page has a simple design.
+The page has a simple design.
 * Quiz exmplanation and rules
 * "Start Quiz" button for easy access to the quiz
 * The website is fully responsive on all screen sizes.
 * Short and to the point this pub quiz aims to get the user quickly from the landing page to the quiz. 
-* All these features aim to help to immediately show and entice the user what the website is about and how much fun they will have should they decide to proceed and play the game.
+
 ![Landing Page Image](assets/images/home-page.jpeg)
 !["Start Quiz" button Image](assets/images/start-btn.jpeg)
 
 ### Quiz  page
- * The quiz page comsists of:
-    * A header that will send the user back to the home page when clicked. 
-    * A progress bar that will fill from left to right.
-    * A question and answer area
-    * Numbered questions to keep track of the users progress.
-    * A "Next" button that appears after a question had been answered. 
+
+The quiz page comsists of:
+*  A header that will send the user back to the home page when clicked. 
+*  A progress bar that will fill from left to right.
+*  A question and answer area.
+*  Numbered questions to keep track of the users progress.
+*  A "Next" button that appears after a question had been answered. 
 ![Quiz page](assets/images/quiz-page.jpeg)
 
 * When hovered over the button will change color to highlight potential choice.
@@ -165,6 +166,8 @@ Results page
 
 ![Results screen](assets/images/wireframe-results.jpeg)
 
+* 17 out of 20 used as a place holder, the final product only asks 10 questions.
+
 
 ## Technologies
 
@@ -177,7 +180,7 @@ Results page
 * GitHub
     * Source code is hosted on [GitHub](https://github.com) and delpoyed using.
 * Visual studio code
-    * [VS Code](https://code.visualstudio.com/) was used to commit and push code to the website.
+    * [VS Code](https://code.visualstudio.com/) was used to commit and push code to github.
 * Font Awesome
     * Icons for the favicon and the website logo where created using [Fontawsome](https://fontawesome.com)
 * Balsamiq
@@ -255,16 +258,21 @@ Navigate to the GitHub Repository you want to clone to use locally:
 
 ### Media and Fonts
 
-- Fontawesome : Logo
-- Procreate : Editing
+| Resource                          | Purpose       |
+|-----------------------------------|---------------|
+| [FontAwesome](https://fontawesome.com/) | Logo          |
+| [Procreate](https://procreate.com)      | Editing       |
  
 ### Code credits
-- W3schools.com:[Arrays](https://www.w3schools.com/js/js_arrays.asp), [Variables](https://www.w3schools.com/js/js_variables.asp)and [Functions](https://www.w3schools.com/js/js_functions.asp)
-- Treehouse ["Beginner JavaScript Project: Build a Quiz App"](https://www.youtube.com/watch?v=_FnFPmA87XU): Used tp gain and understanding of concept and layout.
-- James Q Quick ["Build a Quiz App(6)"](https://www.youtube.com/watch?v=4bctmtuZVcM) : Used to create loading bar.
-- [Fontawesome](https://fontawesome.com/): Used to create a Favicon
-- Great Stack ["How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript"](https://www.youtube.com/watch?v=PBcqGxrr9g8): used to prpertly structure javascript.
-- Bootstrap, [flex](https://getbootstrap.com/docs/5.3/utilities/flex/#enable-flex-behaviors) and [buttons](https://getbootstrap.com/docs/5.3/components/buttons/#base-class): used to style buttons and make the website more responsive.
+
+| Resource                                                                                     | Purpose                                                                                     |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [W3Schools: Arrays](https://www.w3schools.com/js/js_arrays.asp), [Variables](https://www.w3schools.com/js/js_variables.asp), [Functions](https://www.w3schools.com/js/js_functions.asp) | Used to learn about JavaScript arrays, variables, and functions.                            |
+| [Treehouse: Beginner JavaScript Project - Build a Quiz App](https://www.youtube.com/watch?v=_FnFPmA87XU) | Used to gain an understanding of concepts and layout.                                       |
+| [James Q Quick: Build a Quiz App (6)](https://www.youtube.com/watch?v=4bctmtuZVcM)          | Used to create the loading bar.                                                            |
+| [FontAwesome](https://fontawesome.com/)                                                     | Used to create a favicon.                                                                  |
+| [Great Stack: How To Make Quiz App Using JavaScript](https://www.youtube.com/watch?v=PBcqGxrr9g8) | Used to properly structure JavaScript.                                                     |
+| [Bootstrap: Flex](https://getbootstrap.com/docs/5.3/utilities/flex/#enable-flex-behaviors), [Buttons](https://getbootstrap.com/docs/5.3/components/buttons/#base-class) | Used to style buttons and make the website more responsive.                                |
 
 ### Content
 
